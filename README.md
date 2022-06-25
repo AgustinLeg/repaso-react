@@ -31,6 +31,8 @@ crear archivo eslint.json/js en la raiz de mi proyecto
   npx eslint --init
 ```
 
+- para ver que opcion elegir ingresar al link de + INFO
+
 ## Prettier
 
 crear archivo .prettierrc en la raiz del proyecto ( a la par del .eslint.json/js)
