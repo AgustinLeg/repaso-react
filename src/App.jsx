@@ -1,6 +1,6 @@
-import Boton from "./components/Boton";
-import Card from "./components/Card";
-import "./index.css";
+import Boton from './components/Boton'
+import Card from './components/Card'
+import './index.css'
 
 const App = () => {
   return (
@@ -14,10 +14,10 @@ const App = () => {
       <button className="btn">boton en app</button>
       <Card />
     </>
-  );
-};
+  )
+}
 
 // export {App} === export const App
 
 // export default
-export default App;
+export default App

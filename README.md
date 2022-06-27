@@ -46,5 +46,29 @@ crear archivo .prettierrc en la raiz del proyecto ( a la par del .eslint.json/js
 }
 ```
 
+## Scripts package.json
+```sh
+  "lint": "eslint ./src/*",
+  "lint-fix": "eslint ./src/* --fix",
+  "format": "npx prettier --write ."
+
+  #npm run lint
+  #npm run lint-fix
+  #npm run format
+```
+
+
+## Extra - formatear automaticamente al guardar
+
+Puedes presionar el shortcut ctrl + , o en la esquina inferior donde hay un símbolo de una tuerca, darás click y darás en settings.
+
+```sh
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+```
 
 ## [+ INFO](https://dev.to/mrluisfer/configurar-eslint-prettier-junto-con-vscode-3h00)
