@@ -1,4 +1,4 @@
-### eslint + prettier
+### eslint + prettier APP CON CREATE REACT APP
 
 ## ¿Que es EsLint?
 ESLint es una herramienta de código abierto enfocada en el proceso de "lintig" para javascript (o más correctamente para ECMAScript)

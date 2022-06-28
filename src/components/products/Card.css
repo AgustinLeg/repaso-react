@@ -1,0 +1,12 @@
+.card__container {
+  max-width: 300px;
+}
+
+.card__container img{
+  width: 100%
+}
+
+.card__container .title{
+  color: black;
+  margin-bottom: 10px;
+}

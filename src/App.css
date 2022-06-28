@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: red;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #525252;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+  color: white;
+  background-color: #525252;
+}
+
+.btn-whatsapp {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  background: green;
+  border-radius: 100%;
+  outline: none;
+}
