@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "node": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -17,7 +18,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    "no-unused-vars": "error",
     "prettier/prettier": "warn",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off"

@@ -1,0 +1,14 @@
+.container{
+  background: #f2f2f2;
+  padding: 5px 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  flex: 1 1;
+}
